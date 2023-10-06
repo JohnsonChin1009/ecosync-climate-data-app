@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import streamlit as st
 import requests
-from dotenv import load_dotenv
 
 load_dotenv()
 YOUR_API_KEY = os.getenv("AIRVISUAL_API_KEY")
