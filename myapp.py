@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit as st
 import requests
 
-load_dotenv()
 YOUR_API_KEY = os.getenv("AIRVISUAL_API_KEY")
 
 def get_supported_countries():
